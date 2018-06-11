@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CodeReviewToolOnSpark">
+    <output-path>$USER_HOME$/projects/war outputs</output-path>
+    <root id="archive" name="CodeReviewToolOnSpark.war" />
+  </artifact>
+</component>
