@@ -12,6 +12,7 @@ public class HelloWorld {
 
     public static void main(String[] args) {
         get("/hello", (request, response) -> {
+            response.header("Content-Type", "application/json");
             return "Hello";
         });
 
